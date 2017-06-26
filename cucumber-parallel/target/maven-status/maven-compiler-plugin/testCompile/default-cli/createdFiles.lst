@@ -1,0 +1,5 @@
+com\automationrhapsody\cucumber\parallel\tests\wikipedia\WikipediaSteps.class
+com\automationrhapsody\cucumber\formatter\CustomFormatter.class
+com\automationrhapsody\cucumber\parallel\tests\wikipedia\BaseSteps.class
+com\automationrhapsody\cucumber\formatter\RunWikipediaTestsWithCustomFormatter.class
+com\automationrhapsody\cucumber\parallel\tests\wikipedia\RunWikipediaTest.class
