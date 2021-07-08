@@ -16,6 +16,13 @@ public class BaseSteps {
         driver.navigate().to("http://en.wikipedia.org");
     }
 
+    protected void startChromeWebDriver() {
+        Properties props = System.getProperties();
+        props.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.navigate().to("http://en.wikipedia.org");
+    }
+
     protected void stopWebDriver() {
         driver.quit();
     }
